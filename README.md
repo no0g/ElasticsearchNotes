@@ -50,3 +50,7 @@ Once started it will be deployed on localhost:9200 by default
 `elasticnotes.ipynb` covers the basic use of elasticsearch and an attempt to move data from mysql database to elasticsearch.   
 ![alt text](https://i.imgur.com/ccI7XFR.png)   
 
+## Sources
+- [Advantages and disadvantage of Elasticsearch](https://www.javatpoint.com/advantages-and-disadvantages-of-elasticsearch)
+- [Build A Search App With ElasticSearch](https://www.youtube.com/watch?v=9hHWI02Axl8)
+- [Chapter 2: Insert and Get query | Elasticsearch using Python](https://www.youtube.com/watch?v=-l3stO46CJc)
