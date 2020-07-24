@@ -1,7 +1,25 @@
 # Elasticsearch Notes
   
 ## What is Elasticsearch?
-Elasticsearch is a distributed document-oriented search engine, which is used to store data in the form of a document. 
+Elasticsearch is a search engine built on apache lucene. It is an open source and developed in Java. It is a real time distributed and analytic engine which helps in performing various kinds of search mechanism. It is able to achieve fast search responses because, instead of searching the text directly, it searches an index instead. Additionally, it supports full-text search which is completely based on documents instead of tables or schemas.  
+
+## Basic Concepts
+
+- Near Real Time: Elasticsearch is a near real time search platform which perform search as quickly as you index a document.
+
+- Cluster: A cluster is a collection of one or more nodes that together holds the entire data. It provides federated indexing and search capabilities across all nodes and is identified by a unique name (by default it is ‘elasticsearch’).
+
+- Node: A node is a single server which is a part of cluster, stores data and participates in the cluster’s indexing and search capabilities.
+
+- Index: An index is a collection of documents with similar characteristics and is identified by a name. This name is used to refer to the index while performing indexing, search, update, and delete operations against the documents in it.
+
+- Type: A type is a logical type of an index whose semantics is complet. It is defined for documents that have a set of common fields. you can define more than one type in your index.
+
+- Document: A document is a basic unit of information which can be indexed. It is demonstrated in JSON which is a global internet data interchange format.
+
+- Shards: Elasticsearch provides the ability to subdivide the index into multiple pieces called shards. Each shard is in itself a fully-functional and independent “index” that can be hosted on any node within the cluster
+
+- Replicas: Elasticsearch allows you to make one or more copies of your index’s shards which are called replica shards or replica.
 
 ## Pros
 - Elasticsearch is compatible to run on every platform because it is developed in Java.
@@ -54,3 +72,4 @@ Once started it will be deployed on localhost:9200 by default
 - [Advantages and disadvantage of Elasticsearch](https://www.javatpoint.com/advantages-and-disadvantages-of-elasticsearch)
 - [Build A Search App With ElasticSearch](https://www.youtube.com/watch?v=9hHWI02Axl8)
 - [Chapter 2: Insert and Get query | Elasticsearch using Python](https://www.youtube.com/watch?v=-l3stO46CJc)
+- [What is Elasticsearch?](https://medium.com/@AIMDekTech/what-is-elasticsearch-why-elasticsearch-advantages-of-elasticsearch-47b81b549f4d)
