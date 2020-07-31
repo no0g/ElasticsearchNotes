@@ -87,6 +87,9 @@ Kibana's Dev tools that helps you to debug and/or communicate directly to the el
 ![alt text](https://i.imgur.com/jL0Jb7B.png)   
 Generate your data into a presentable item!  
 
+- Maps
+![alt text](https://i.imgur.com/aDy2cFO.png)   
+Geo-mapping your data
 ## Sources
 - [Advantages and disadvantage of Elasticsearch](https://www.javatpoint.com/advantages-and-disadvantages-of-elasticsearch)
 - [Build A Search App With ElasticSearch](https://www.youtube.com/watch?v=9hHWI02Axl8)
