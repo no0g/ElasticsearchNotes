@@ -75,6 +75,7 @@ Kibana also provides a presentation tool, referred to as Canvas, that allows use
 
 You can access the features of kibana [here](https://www.elastic.co/kibana/features).  
 
+Kibana can be deployed on cloud using elastic cloud's service or downloaded from [here](https://www.elastic.co/downloads/kibana) and deployed locally.  
 
 
 ## Sources
