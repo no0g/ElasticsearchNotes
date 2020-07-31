@@ -77,6 +77,15 @@ You can access the features of kibana [here](https://www.elastic.co/kibana/featu
 
 Kibana can be deployed on cloud using elastic cloud's service or downloaded from [here](https://www.elastic.co/downloads/kibana) and deployed locally.  
 
+- Dashboard
+![alt text](https://i.imgur.com/u1OaVEa.png)   
+Kibana's Dashboard that shows your visualized data.   
+- Dev Tools
+![alt text](https://i.imgur.com/lHJEHsm.png)   
+Kibana's Dev tools that helps you to debug and/or communicate directly to the elasticsearch.
+- Canvas
+![alt text](https://i.imgur.com/jL0Jb7B.png)   
+Generate your data into a presentable item!  
 
 ## Sources
 - [Advantages and disadvantage of Elasticsearch](https://www.javatpoint.com/advantages-and-disadvantages-of-elasticsearch)
